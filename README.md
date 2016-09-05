@@ -31,13 +31,13 @@ Publish the config file in your folder config/Office365API.php
 $ php artisan vendor:publish
 ```
 
-Finally, configure the file Office365API.php at config folder with your credentials of your API at Microsoft Dev Portal /n
+Finally, configure the file Office365API.php at config folder with your credentials of your API at Microsoft Dev Portal </br>
 <a href="https://apps.dev.microsoft.com/">App Registration Portal</a>
 
 ``` php
     'CLIENT_ID' => 'your id string,
     'CLIENT_SECRET' => 'your secret key',
-    'REDIRECT_URI' => 'your redirect url when the connection gets finished, Should be the route of laravel where will redirect once the connection is finished',
+    'REDIRECT_URI' => 'your redirect url, Should be the route of laravel where will redirect once the connection is finished',
 ```
 
 ## Usage
