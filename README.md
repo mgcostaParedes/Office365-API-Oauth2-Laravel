@@ -51,24 +51,24 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:author_name][link-author]
+- [Miguel Costa][https://github.com/killmi]
 - [All Contributors][link-contributors]
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/miguel_costa/office365api.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/miguel_costa/office365api/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/miguel_costa/office365api.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/miguel_costa/office365api.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/miguel_costa/office365api.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/:vendor/:package_name
-[link-travis]: https://travis-ci.org/:vendor/:package_name
-[link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
-[link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-packagist]: https://packagist.org/packages/miguel_costa/office365api
+[link-travis]: https://travis-ci.org/miguel_costa/office365api
+[link-scrutinizer]: https://scrutinizer-ci.com/g/miguel_costa/office365api/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/miguel_costa/office365api
+[link-downloads]: https://packagist.org/packages/miguel_costa/office365api
+[link-author]: https://github.com/killmi
 [link-contributors]: ../../contributors
