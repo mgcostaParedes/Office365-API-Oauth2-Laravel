@@ -48,14 +48,22 @@ use Miguel_Costa\Office365API\ConnectAPI;
 
 //example of function to make the connection
 public function redirect_connect() {
-$connect = ConnectAPI::connect_officeAPI();
+ConnectAPI::connect_officeAPI();
 }
 
 //get the connection and redirect the user to the intended page
 public function get_connection() {
-$connect = ConnectAPI::get_connection();
+ConnectAPI::get_connection();
 return view('home');
 }
+```
+Get the connection at the blade view:
+The connection saves an Session variable of the username and email, so after making the connection you can access the variables like that:
+``` php
+@if(Session::has('office365_name'))
+<p>Welcome, <b>{{Session::get('office365_name')}}</b></p>
+<p>You are logged in with the Office365 Account:<b>{{Session::get('office365_email')}}</b></p>
+@endif
 ```
 
 ## Change log

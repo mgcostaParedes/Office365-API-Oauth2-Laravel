@@ -66,8 +66,8 @@ public static function get_connection() {
 
         // The following user properties are needed in the next page
 
-        session()->put('office365_unique_name', $jsonAccessTokenPayload['preferred_username']);
-        session()->put('office365_given_name', $jsonAccessTokenPayload['name']);
+        session()->put('office365_email', $jsonAccessTokenPayload['preferred_username']);
+        session()->put('office365_name', $jsonAccessTokenPayload['name']);
 
     } catch (League\OAuth2\Client\Provider\Exception\IdentityProviderException $e) {
         echo 'Something went wrong, couldn\'t get tokens: ' . $e->getMessage();
