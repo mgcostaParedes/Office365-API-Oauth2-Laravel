@@ -1,4 +1,4 @@
-# Office 365 Connection to Graph API Laravel 5.2^
+# Office 365 Connection to Graph API Laravel 5.2 >=
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -40,11 +40,6 @@ return view('home');
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Contributing
 
