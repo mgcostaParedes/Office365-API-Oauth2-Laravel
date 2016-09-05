@@ -21,8 +21,15 @@ $ composer require :vendor/:package_name
 ## Usage
 
 ``` php
-$skeleton = new League\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+//use the namespace corretly on your controller
+use Miguel_Costa\Office365API\ConnectAPI;
+
+//init the connect
+$connect = ConnectAPI::connect_officeAPI();
+
+//get the connection and redirect the user to the intended page
+$connect = ConnectAPI::get_connection();
+return view('home');
 ```
 
 ## Change log
