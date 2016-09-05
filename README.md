@@ -35,8 +35,8 @@ Finally, configure the file <i>Office365API.php</i> at config folder with your c
 <a href="https://apps.dev.microsoft.com/">App Registration Portal</a>
 
 ``` php
-    'CLIENT_ID' => 'your id string,
-    'CLIENT_SECRET' => 'your secret key',
+    'CLIENT_ID' => 'your id string goes here...',
+    'CLIENT_SECRET' => 'your secret key goes here...',
     'REDIRECT_URI' => 'your redirect url, Should be the route of laravel where will redirect once the connection is finished',
 ```
 
