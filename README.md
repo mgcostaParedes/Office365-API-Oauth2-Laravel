@@ -19,19 +19,19 @@ $ composer require miguel_costa/office365api
 ```
 
 
-Add the provider in the file app.php at folder config
+Add the provider in the file <i>app.php</i> at folder config
 
 ``` php
 Miguel_Costa\Office365API\Office365APIServiceProvider::class,
 ```
 
-Publish the config file in your folder config/Office365API.php
+Publish the config file in your folder <i>config/Office365API.php</i>
 
 ``` bash
 $ php artisan vendor:publish
 ```
 
-Finally, configure the file Office365API.php at config folder with your credentials of your API at Microsoft Dev Portal </br>
+Finally, configure the file <i>Office365API.php</i> at config folder with your credentials of your API at Microsoft Dev Portal </br>
 <a href="https://apps.dev.microsoft.com/">App Registration Portal</a>
 
 ``` php
