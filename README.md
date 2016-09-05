@@ -1,4 +1,4 @@
-# Office 365 Connection to Graph API Laravel 5.2 >=
+# Office 365 Connection to Graph API Laravel 5
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -8,7 +8,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 
 
-This is the first test of a package to Laravel 5.2 >= , actually is already working, is getting the connection to the Microsoft Graph api correctly, as soon as i can i will document this file better.
+This is the first test of a package to Laravel 5 , actually is already working, is getting the connection to the Microsoft Graph api correctly, as soon as i can i will document this file better, The purpose of the project is getting bigger and extends the classes with all the options of their API (send emails, read emails, control the calendar, create events, create users, etc).
 
 ## Install
 
@@ -77,7 +77,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email "tga_miguel_tga@hotmail.com" instead of using the issue tracker.
 
 ## Credits
 
