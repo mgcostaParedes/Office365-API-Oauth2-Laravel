@@ -15,7 +15,7 @@ This is the first test of a package to Laravel 5.2 >= , actually is already work
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require miguel_costa/office365api
 ```
 
 ## Usage
