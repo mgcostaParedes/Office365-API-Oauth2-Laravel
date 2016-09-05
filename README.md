@@ -24,12 +24,16 @@ $ composer require :vendor/:package_name
 //use the namespace corretly on your controller
 use Miguel_Costa\Office365API\ConnectAPI;
 
-//init the connect
+//example of function to make the connection
+public function redirect_connect() {
 $connect = ConnectAPI::connect_officeAPI();
+}
 
 //get the connection and redirect the user to the intended page
+public function get_connection() {
 $connect = ConnectAPI::get_connection();
 return view('home');
+}
 ```
 
 ## Change log
