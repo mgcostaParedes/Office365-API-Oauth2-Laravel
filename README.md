@@ -18,6 +18,28 @@ Via Composer
 $ composer require miguel_costa/office365api
 ```
 
+
+Add the provider in the file app.php at folder config
+
+``` php
+Miguel_Costa\Office365API\Office365APIServiceProvider::class,
+```
+
+Publish the config file in your folder config/Office365API.php
+
+``` bash
+$ php artisan vendor:publish
+```
+
+Finally, configure the file Office365API.php at config folder with your credentials of your API at Microsoft Dev Portal /n
+<a href="https://apps.dev.microsoft.com/">App Registration Portal</a>
+
+``` php
+    'CLIENT_ID' => 'your id string,
+    'CLIENT_SECRET' => 'your secret key',
+    'REDIRECT_URI' => 'your redirect url when the connection gets finished, Should be the route of laravel where will redirect once the connection is finished',
+```
+
 ## Usage
 
 ``` php
