@@ -1,7 +1,7 @@
 {
     "name": "Miguel_Costa/Office365API",
     "type": "library",
-    "description": ":package_description",
+    "description": "First test of connection to Microsoft Graph API 1.0",
     "keywords": [
         "Miguel_Costa",
         "Office365API"
@@ -10,15 +10,16 @@
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Miguel Costa",
+            "email": "tga_miguel_tga@hotmail.com",
+            "homepage": "https://github.com/killmi",
             "role": "Developer"
         }
     ],
     "require": {
         "illuminate/support": "~5.1",
-        "php" : "~5.6|~7.0"
+        "php" : "~5.6|~7.0",
+        "league/oauth2-client": "^1.4",
     },
     "require-dev": {
         "phpunit/phpunit" : "~4.0||~5.0",
