@@ -1,5 +1,5 @@
 {
-    "name": "Miguel_Costa/office365api",
+    "name": "miguel_costa/office365api",
     "type": "library",
     "description": "First test of connection to Microsoft Graph API 1.0",
     "keywords": [
