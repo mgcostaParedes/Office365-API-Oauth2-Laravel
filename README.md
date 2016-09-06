@@ -1,4 +1,4 @@
-# Office 365 Graph API Connection Oauth2 Laravel 5^
+# Office 365 Graph API Connection Oauth2 Laravel 5
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
