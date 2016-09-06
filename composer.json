@@ -6,13 +6,13 @@
         "Miguel_Costa",
         "Office365API"
     ],
-    "homepage": "https://github.com/Miguel_Costa/Office365API",
+    "homepage": "https://github.com/mgcostaParedes/Office365-API-Oauth2-Laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "Miguel Costa",
             "email": "tga_miguel_tga@hotmail.com",
-            "homepage": "https://github.com/killmi",
+            "homepage": "https://github.com/mgcostaParedes",
             "role": "Developer"
         }
     ],
